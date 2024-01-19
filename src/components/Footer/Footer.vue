@@ -41,7 +41,7 @@
 import { ref } from "vue";
 import Apple from "../../assets/svgs/Apple.vue";
 import Googlepod from "../../assets/svgs/Googlepod.vue";
-import Soundcloud from "../../assets/svgs/Soundcloud.vue";
+import Soundcloud from "../../assets/svgs/SoundCloud.vue";
 import Spotify from "../../assets/svgs/Spotify.vue";
 import copyright from "./copyright.vue";
 import SponsorshipBanner from "../Promotional/SponsorshipBanner.vue";
