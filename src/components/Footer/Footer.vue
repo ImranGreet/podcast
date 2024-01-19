@@ -1,12 +1,12 @@
 <template>
-  <section class="w-full bg-textColor">
-    <div class="px-16 py-16 w-full">
+  <section class="w-full bg-textColor relative">
+    <div class="px-16 py-44 w-full">
       <div class="w-full grid grid-cols-3">
         <div class="w-full flex flex-col justify-start items-start">
-          <h1 class="text-4xl text-deafult">Xenmesh</h1>
+          <h1 class="text-4xl text-default">Xenmesh</h1>
         </div>
         <!-- links -->
-        <div class="grid grid-cols-3 text-deafult w-full col-span-2">
+        <div class="grid grid-cols-3 text-default w-full col-span-2">
           <ul v-for="(footerPage, index) in footerLinks" :key="index">
             <h3 class="text-xl capitalize">{{ footerPage.title }}</h3>
             <div class="my-2"></div>
@@ -31,6 +31,9 @@
       </div>
     </div>
     <copyright />
+    <div class="absolute -top-44 left-[305px] right-[295px]">
+      <SponsorshipBanner />
+    </div>
   </section>
 </template>
 
@@ -41,10 +44,18 @@ import Googlepod from "../../assets/svgs/googlepod.vue";
 import Soundcloud from "../../assets/svgs/soundcloud.vue";
 import Spotify from "../../assets/svgs/spotify.vue";
 import copyright from "./copyright.vue";
+import SponsorshipBanner from "../Promotional/SponsorshipBanner.vue";
 
 export default {
   name: "Footer",
-  components: { Apple, Googlepod, Soundcloud, Spotify, copyright },
+  components: {
+    Apple,
+    Googlepod,
+    Soundcloud,
+    Spotify,
+    copyright,
+    SponsorshipBanner,
+  },
 
   setup() {
     const footerLinks = ref([

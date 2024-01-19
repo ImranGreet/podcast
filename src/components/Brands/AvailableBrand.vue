@@ -1,5 +1,8 @@
 <template>
-  <div class="w-full grid grid-cols-5">
+  <div class="w-full flex justify-between items-center">
+    <div class="text-textColor font-headline">
+      <h1 class="text-xl">Podcast Available On</h1>
+    </div>
     <Spotify />
     <Googlepod />
     <SoundCloud />

@@ -1,5 +1,16 @@
 <template>
-  <div></div>
+  <div class="w-full space-y-5">
+    <div class="w-full flex justify-start items-center gap-x-5">
+      <div class=" flex flex-col justify-center items-center">
+        <img :src="publicProfileImage" alt="" class="w-24 h-24 rounded-full" />
+      </div>
+      <h2 class="font-headThree text-xl">{{ reviewerName }}</h2>
+    </div>
+    <div>
+      <p>{{ reviewInText }}</p>
+    </div>
+    <div class="w-full h-3 bg-accentColor"></div>
+  </div>
 </template>
 
 <script>

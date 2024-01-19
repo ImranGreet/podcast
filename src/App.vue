@@ -1,11 +1,12 @@
 
 <template>
-  <section class="max-w-full">
-    <div class="w-full flex flex-col justify-between items-center min-h-screen">
-      <Navabar />
+  <section class="max-w-full min-h-screen flex flex-col justify-between items-center">
+    <Navabar />
+    <div class="max-w-7xl mx-auto ">
       <router-view />
-      <Footer />
     </div>
+    <div class="w-full h-24"></div>
+    <Footer />
   </section>
 </template>
 

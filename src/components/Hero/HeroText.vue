@@ -1,6 +1,8 @@
 <template>
-  <div class="text-start">
-    <h1 class="text-4xl font-headline text-textColor capitalize leading-snug">
+  <div class="text-start space-y-5">
+    <h1
+      class="text-4xl font-headline text-textColor capitalize leading-snug "
+    >
       {{ heroHeadline }}
     </h1>
     <p>{{ herotextinDetails }}</p>

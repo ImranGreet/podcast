@@ -1,7 +1,11 @@
 <template>
-  <div class="bg-accentColor">
-    <div class="w-1/2 flex flex-col justify-center items-center">
-      <img :src="speakerImage" alt="" class="w-full" />
+  <div class="bg-accentColor w-full py-16">
+    <div class="w-full flex flex-col justify-center items-center">
+      <img
+        :src="speakerImage"
+        alt=""
+        class="w-48 h-48 rounded-full object-cover"
+      />
     </div>
   </div>
 </template>

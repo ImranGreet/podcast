@@ -1,4 +1,23 @@
-<template></template>
+<template>
+  <div class="w-full relative">
+    <div class="w-full flex flex-col justify-center items-center">
+      <img :src="episodeThumbnail" alt="" class="w-full h-52 object-cover" />
+    </div>
+    <div class="text-start space-y-2">
+      <h2 class="text-2xl font-headThree leading-7">
+        Laravel is a web application framework with expressive, elegant syntax.
+      </h2>
+      <p>
+        Laravel strives to provide an amazing developer experience while
+        providing powerful features such as thorough dependency injection
+      </p>
+      <LisitingButton />
+      <div class="absolute top-4 right-4">
+        <HeadphoneButton />
+      </div>
+    </div>
+  </div>
+</template>
 
 <script>
 import { ref } from "vue";

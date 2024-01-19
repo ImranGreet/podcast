@@ -1,5 +1,5 @@
 <template>
-    <svg xmlns="http://www.w3.org/2000/svg" width="203" height="37" viewBox="0 0 203 37" fill="none">
+    <svg xmlns="http://www.w3.org/2000/svg" width="203" height="37" viewBox="0 0 203 37" fill="none" class="cursor-pointer">
         <g clip-path="url(#clip0_736_1323)">
           <path d="M17.0271 11.5476V17.047V19.2451V24.7444H21.6487V19.2451V17.047V11.5476H17.0271Z" fill="#FAB908"/>
           <path d="M3.1626 19.1764C4.43881 19.1764 5.47338 18.1609 5.47338 16.9082C5.47338 15.6555 4.43881 14.64 3.1626 14.64C1.88638 14.64 0.851807 15.6555 0.851807 16.9082C0.851807 18.1609 1.88638 19.1764 3.1626 19.1764Z" fill="#0066D9"/>

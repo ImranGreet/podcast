@@ -1,6 +1,7 @@
 <template>
-  <button>
+  <button class="flex gap-x-2 text-accentColor">
     <Listen />
+    <span class="mt-1"> Listen Now</span>
   </button>
 </template>
 <script>
