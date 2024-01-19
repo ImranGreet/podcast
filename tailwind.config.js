@@ -14,7 +14,9 @@ export default {
       accentColor:'#503AE7',
       textColor:'#14142B',
       bgColor:'#832BC1',
-      borderColor:'#AFB0B9'
+      borderColor:'#AFB0B9',
+      deafult:"#FFFFFF",
+      blur:"#e2e8f0",
 
     },
     fontSize:{
