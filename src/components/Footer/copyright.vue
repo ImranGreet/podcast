@@ -4,7 +4,9 @@
       <p>
         &#169; Copyright
         <span
-          ><a href="https://www.facebook.com/profile.php?id=100082960881309"
+          ><a
+            href="https://www.facebook.com/profile.php?id=100082960881309"
+            target="_blank"
             >Xenmesh</a
           ></span
         >
