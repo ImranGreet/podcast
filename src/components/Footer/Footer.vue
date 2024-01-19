@@ -39,7 +39,7 @@
 
 <script>
 import { ref } from "vue";
-import Apple from "../../assets/svgs/apple.vue";
+import Apple from "../../assets/svgs/Apple.vue";
 import Googlepod from "../../assets/svgs/googlepod.vue";
 import Soundcloud from "../../assets/svgs/soundcloud.vue";
 import Spotify from "../../assets/svgs/spotify.vue";
