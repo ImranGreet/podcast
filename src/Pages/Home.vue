@@ -1,30 +1,41 @@
 <template>
-  <section class="py-48 space-y-10">
-    <div class="w-full flex h-96 flex-col-reverse sm:flex-row">
+  <section class="space-y-10">
+    <div
+      class="w-full flex h-auto flex-col-reverse sm:flex-row py-14 xl:py-44 gap-y-5 sm:gap-y-0"
+    >
       <HeroText />
       <Soundshower />
     </div>
+
     <AvailableBrand />
 
-    <PodcastPromotion/>
+    <PodcastPromotion />
 
     <div class="w-full space-y-10">
-      <div class="w-full flex justify-between">
-        <div class="w-1/2">
-          <h1 class="text-4xl">Recent Episodes</h1>
-          <p>
+      <div
+        class="w-full flex flex-col sm:flex-row justify-between space-y-6 sm:space-y-0"
+      >
+        <div class="w-11/12 mx-auto sm:w-1/2 space-y-2">
+          <h1 class="text-2xl lg:text-4xl font-headline">Recent Episodes</h1>
+          <p class="text-lg">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
             corporis, dolorum architecto doloribus soluta nesciunt cum cumque
             voluptatem, dolorem error quis.
           </p>
         </div>
-        <div class="self-center flex flex-col justify-center items-center">
-          <router-link to="#" class="px-8 py-4 bg-accentColor text-deafult"
+        <div
+          class="w-full sm:w-auto self-center flex flex-col justify-center items-center"
+        >
+          <router-link
+            to="#"
+            class="w-11/12 mx-auto sm:w-auto px-8 py-2 lg:py-4 bg-accentColor text-deafult"
             >See All episode</router-link
           >
         </div>
       </div>
-      <div class="w-full grid grid-cols-3 gap-x-5">
+      <div
+        class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-5 sm:gap-x-5 px-3 lg:px-0"
+      >
         <Episode />
         <Episode />
         <Episode />
@@ -34,24 +45,32 @@
 
     <div class="w-full space-y-10">
       <div class="w-full flex justify-between">
-        <div class="w-1/2 space-y-10">
-          <h1 class="text-4xl">What Our Listener Say</h1>
+        <div class="w-full lg:w-1/2 space-y-4 lg:space-y-10 px-5 sm:px-0">
+          <h1 class="text-2xl lg:text-4xl font-headline">
+            What Our Listener Say
+          </h1>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
             corporis, dolorum architecto doloribus soluta nesciunt cum cumque
             voluptatem, dolorem error quis.
           </p>
         </div>
-        <div class="flex gap-x-3 self-center">
-          <button class="bg-accentColor text-deafult px-5 py-2 text-default">
+        <div class="flex gap-x-1 lg:gap-x-3 self-center">
+          <button
+            class="bg-accentColor text-deafult px-2 lg:px-5 py-2 text-default"
+          >
             <LeftArrow />
           </button>
-          <button class="bg-accentColor text-deafult px-5 py-2 text-default">
+          <button
+            class="bg-accentColor text-deafult px-2 lg:px-5 py-2 text-default"
+          >
             <Rightarrow />
           </button>
         </div>
       </div>
-      <div class="w-full grid grid-cols-3 gap-x-5">
+      <div
+        class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-5 sm:gap-x-5 px-4 lg:px-0"
+      >
         <PublicReview />
         <PublicReview />
         <PublicReview />
@@ -61,6 +80,10 @@
 
     <SubscriptionBox />
     <BlogContainer />
+    <div class="block lg:hidden">
+      <SponsorshipBanner />
+    </div>
+    <div class="h-36 hidden lg:block"></div>
   </section>
 </template>
 

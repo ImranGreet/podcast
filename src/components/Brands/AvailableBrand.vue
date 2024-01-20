@@ -1,5 +1,7 @@
 <template>
-  <div class="w-full flex justify-between items-center">
+  <div
+    class="w-full flex flex-col lg:flex-row justify-between items-start lg:items-center gap-y-8 lg:gap-y-0 px-8 lg:px-0"
+  >
     <div class="text-textColor font-headline">
       <h1 class="text-xl">Podcast Available On</h1>
     </div>

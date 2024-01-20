@@ -1,12 +1,14 @@
 <template>
   <section class="w-full bg-textColor relative">
-    <div class="px-16 py-44 w-full">
-      <div class="w-full grid grid-cols-3">
+    <div class="px-16 py-32 lg:py-44 w-full">
+      <div class="w-full grid grid-cols-1 sm:grid-cols-3">
         <div class="w-full flex flex-col justify-start items-start">
           <h1 class="text-4xl text-default">Xenmesh</h1>
         </div>
         <!-- links -->
-        <div class="grid grid-cols-3 text-default w-full col-span-2">
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-y-5 sm:gap-y-0 text-default w-full col-span-2"
+        >
           <ul v-for="(footerPage, index) in footerLinks" :key="index">
             <h3 class="text-xl capitalize">{{ footerPage.title }}</h3>
             <div class="my-2"></div>
@@ -31,7 +33,9 @@
       </div>
     </div>
     <copyright />
-    <div class="absolute -top-44 left-[305px] right-[295px]">
+    <div
+      class="absolute -top-44 lg:left-[45px] lg:right-[45px] xl:left-[305px] xl:right-[295px] hidden lg:block"
+    >
       <SponsorshipBanner />
     </div>
   </section>

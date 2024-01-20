@@ -2,9 +2,11 @@
   <div class="w-full bg-accentColor">
     <div class="w-full flex flex-col justify-center items-center text-center">
       <div class="text-center pt-8">
-        <h1 class="text-4xl font-headline">Our Sponsor</h1>
+        <h1 class="text-2xl lg:text-4xl font-headline">Our Sponsor</h1>
       </div>
-      <div class="w-full flex justify-between items-center px-8 py-16">
+      <div
+        class="w-full flex flex-col lg:flex-row justify-between items-start lg:items-center px-8 py-16 gap-y-6 lg:gap-y-0"
+      >
         <SponsorOne />
         <SponsorTwo />
         <SponsorThree />

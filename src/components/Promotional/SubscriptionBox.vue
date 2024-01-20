@@ -2,16 +2,18 @@
   <div
     class="w-full flex flex-col justify-center items-center text-default bg-accentColor py-16 relative"
   >
-    <form action="#" class="w-2/5 mx-auto text-center space-y-6">
+    <form action="#" class="w-full sm:w-2/5 mx-auto text-center space-y-6">
       <div class="w-full mx-auto">
-        <h1 class="text-2xl">Receive new episodes in your inbox.</h1>
+        <h1 class="text-xl lg:text-2xl font-headline">
+          Receive new episodes in your inbox.
+        </h1>
       </div>
       <EmailSubscription />
     </form>
-    <div class="absolute top-16 left-16">
+    <div class="absolute top-16 left-16 hidden sm:block">
       <LargeMikeLeft />
     </div>
-    <div class="absolute top-20 right-5">
+    <div class="absolute top-20 right-5 hidden sm:block">
       <LargeMikeRight />
     </div>
   </div>

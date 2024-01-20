@@ -1,7 +1,9 @@
 <template>
-  <div class="w-full  flex flex-col justify-center items-center">
+  <div class="w-full flex flex-col justify-center items-center">
     <div class="w-full space-y-10 px-6">
-      <h1 class="text-textColor text-3xl leading-10 font-headline">
+      <h1
+        class="text-textColor text-xl lg:text-3xl leading-7 lg:leading-10 font-headline"
+      >
         {{ promoteHeadline }}
       </h1>
       <p class="text-lg">{{ description }}</p>

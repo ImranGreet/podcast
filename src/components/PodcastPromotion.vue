@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full grid grid-cols-2 gap-y-20">
+  <div class="w-full grid grid-cols-1 lg:grid-cols-2 gap-y-20 px-3 lg:px-0">
     <PodcastPromoteText />
     <PodcastSpeaker />
     <!-- podcast image -->
@@ -8,10 +8,12 @@
     </div>
     <div class="w-full flex flex-col justify-center items-center">
       <div class="w-4/5 mx-auto text-center space-y-6">
-        <h1 class="text-textColor text-3xl font-headline leading-snug">
+        <h1
+          class="text-textColor text-xl lg:text-3xl font-headline leading-snug"
+        >
           {{ podcasterHeadline }}
         </h1>
-        <p>{{ podcasterDelivery }}</p>
+        <p class="text-xl">{{ podcasterDelivery }}</p>
       </div>
     </div>
   </div>

@@ -4,7 +4,7 @@
       <img :src="episodeThumbnail" alt="" class="w-full h-52 object-cover" />
     </div>
     <div class="text-start space-y-2">
-      <h2 class="text-2xl font-headThree leading-7">
+      <h2 class="text-xl lg:text-2xl font-headThree leading-7">
         Laravel is a web application framework with expressive, elegant syntax.
       </h2>
       <p>

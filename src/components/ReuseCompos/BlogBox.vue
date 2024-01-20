@@ -11,7 +11,7 @@
         Laravel strives to provide an amazing developer experience while
         providing powerful features such as thorough dependency injection
       </p>
-      <button class="text-accentColor font-headline">Read Now</button>
+      <button class="text-accentColor font-headline ">Read Now</button>
     </div>
   </div>
 </template>
