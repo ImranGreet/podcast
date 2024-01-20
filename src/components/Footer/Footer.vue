@@ -34,7 +34,7 @@
     </div>
     <copyright />
     <div
-      class="absolute -top-44 lg:left-[45px] lg:right-[45px] xl:left-[305px] xl:right-[295px] hidden lg:block"
+      class="absolute -top-44 lg:left-[45px] lg:right-[45px] xl:left-[305px] xl:right-[295px] hidden lg:hidden"
     >
       <SponsorshipBanner />
     </div>

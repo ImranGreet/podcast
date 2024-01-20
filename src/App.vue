@@ -3,7 +3,7 @@
   <section
     class="max-w-full min-h-screen flex flex-col justify-between items-center"
   >
-    <!-- <Navabar /> -->
+    <Navabar />
     <div class="max-w-7xl mx-auto">
       <router-view />
     </div>
