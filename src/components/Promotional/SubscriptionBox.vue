@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full flex flex-col justify-center items-center text-default bg-accentColor py-16 relative"
+    class="sm:w-full w-11/12 mx-auto flex flex-col justify-center items-center text-default bg-accentColor py-16 relative"
   >
     <form action="#" class="w-full sm:w-2/5 mx-auto text-center space-y-6">
       <div class="w-full mx-auto">

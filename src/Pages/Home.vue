@@ -8,8 +8,10 @@
     </div>
 
     <AvailableBrand />
-
+    <div class="w-full h-8"></div>
     <PodcastPromotion />
+
+    <div class="w-full h-8"></div>
 
     <div class="w-full space-y-10">
       <div
@@ -41,6 +43,9 @@
         <Episode />
       </div>
     </div>
+
+    <div class="w-full h-8"></div>
+
     <!-- public review -->
 
     <div class="w-full space-y-10">
@@ -78,8 +83,16 @@
     </div>
     <!-- end public reviews -->
 
+    <div class="w-full h-8"></div>
+
     <SubscriptionBox />
+
+    <div class="w-full h-8"></div>
+
     <BlogContainer />
+
+    <div class="w-full h-8"></div>
+
     <div class="block lg:hidden">
       <SponsorshipBanner />
     </div>
