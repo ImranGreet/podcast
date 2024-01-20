@@ -1,6 +1,6 @@
 <template>
   <section class="w-full bg-textColor relative">
-    <div class="px-16 py-32 lg:py-44 w-full">
+    <div class="px-16 py-44 w-full">
       <div class="w-full grid grid-cols-1 sm:grid-cols-3">
         <div class="w-full flex flex-col justify-start items-start">
           <h1 class="text-4xl text-default">Xenmesh</h1>
