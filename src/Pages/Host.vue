@@ -15,6 +15,12 @@
         :podcastDetailsEnd="textPodcast.detailsEnd"
       />
     </div>
+    <div class="w-full h-8"></div>
+    <HostChannelStat />
+    <div class="w-full h-8"></div>
+    <HostAnchor />
+    <div class="w-full h-8"></div>
+    <recent-episode />
   </section>
 </template>
 
@@ -24,11 +30,22 @@ import AvailableBrand from "../components/Brands/AvailableBrand.vue";
 import HostPerson from "../components/Host/HostPerson.vue";
 import LiveHosting from "../components/Host/LiveHosting.vue";
 import PodcastInText from "../components/Host/PodcastInText.vue";
+import HostChannelStat from "../components/Host/HostChannelStat.vue";
+import HostAnchor from "../components/ReuseCompos/HostAnchor.vue";
+import RecentEpisode from "../components/Episodes/RecentEpisode.vue";
 
 export default {
   name: "Host",
 
-  components: { HostPerson, AvailableBrand, LiveHosting, PodcastInText },
+  components: {
+    HostPerson,
+    AvailableBrand,
+    LiveHosting,
+    PodcastInText,
+    HostChannelStat,
+    HostAnchor,
+    RecentEpisode,
+  },
   setup() {
     let podcastInTextIntro = ref([
       {

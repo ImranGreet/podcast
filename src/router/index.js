@@ -15,6 +15,16 @@ const routes = [
         name: 'podcast',
         component: () => import('../Pages/Podcast.vue'),
     },
+    {
+        path: '/single',
+        name: 'singlepodcast',
+        component: () => import('../Pages/SinglePodcast.vue'),
+    },
+    {
+        path: '/blog',
+        name: 'readblog',
+        component: () => import('../Pages/Blog.vue'),
+    },
 ];
 
 const router = createRouter({
