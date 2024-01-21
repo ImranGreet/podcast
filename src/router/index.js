@@ -10,6 +10,11 @@ const routes = [
         name: 'host',
         component: () => import('../Pages/Host.vue'),
     },
+    {
+        path: '/podcast',
+        name: 'podcast',
+        component: () => import('../Pages/Podcast.vue'),
+    },
 ];
 
 const router = createRouter({
