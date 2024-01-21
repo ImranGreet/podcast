@@ -7,7 +7,8 @@
     <div class="max-w-7xl mx-auto">
       <router-view />
     </div>
-    <div class="w-full h-24"></div>
+    <div class="w-full h-10 xl:h-64 "></div>
+    
     <Footer />
   </section>
 </template>

@@ -1,13 +1,35 @@
 <template>
   <section>
-    <div class="w-full flex flex-col justify-between items-center">
-      <Poster />
+    <div class="w-full">
+      <div
+        class="w-full flex flex-col sm:flex-row justify-between items-center gap-y-5 sm:gap-x-5"
+      >
+        <Poster />
+        <div class="w-full px-6 sm:px-0">
+          <div class="w-full space-y-3 xl:space-y-5">
+            <h1 class="text-start text-accentColor uppercase leading-relaxed tracking-widest">
+              Business
+            </h1>
+            <h1 class="text-3xl xl:text-4xl font-headline leading-10">
+              Ep 2: Getting the first 100 customers for your business
+            </h1>
+            <p class="text-lg leading-snug">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa
+              veritatis saepe quaerat nesciunt aliquam est minus repellendus
+              voluptatem, corrupti aspernatur perspiciatis, eaque quia nobis
+              sit, nisi quas animi omnis voluptatum a fugit obcaecati sequi
+              optio hic sunt. Quia iure nostrum temporibus ipsam! Velit.
+            </p>
+            <button class="px-6 py-4 bg-accentColor text-default">Listen Now</button>
+          </div>
+        </div>
+      </div>
 
       <div class="w-full h-8"></div>
       <PodcastDetails />
       <div class="w-full h-8"></div>
       <AuthorDetails />
-      <div class="w-full h-8"></div>
+      <div class="w-full h-12"></div>
       <RecentEpisode />
     </div>
   </section>
