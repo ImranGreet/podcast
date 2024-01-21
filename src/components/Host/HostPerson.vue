@@ -1,14 +1,16 @@
 <template>
-  <div
-    class="w-full h-[500px] flex flex-col justify-center items-center "
-  >
+  <div class="w-full h-[500px] flex flex-col justify-center items-center">
     <div
-      class="w-4/5 h-full mx-auto flex flex-col sm:flex-row justify-center items-center gap-x-10"
+      class="w-full h-full mx-auto flex flex-col sm:flex-row justify-center items-center gap-x-10"
     >
-      <div class="w-1/2 h-full flex flex-col justify-center items-center">
+      <div
+        class="w-full sm:w-1/2 h-full flex flex-col justify-center items-center"
+      >
         <img :src="host" alt="" class="h-full object-fill w-full" />
       </div>
-      <div class="w-1/2 flex flex-col justify-between items-start gap-y-10">
+      <div
+        class="w-full sm:w-1/2 flex flex-col justify-between items-start gap-y-10"
+      >
         <div class="space-y-5 w-full">
           <h1 class="text-3xl font-headline leading-snug">{{ hostSpeech }}</h1>
           <p class="text-lg">{{ hostSpeechDesc }}</p>

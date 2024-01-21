@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full ">
+  <div class="w-full">
     <div class="w-full flex flex-col justify-between items-center">
-      <div class="w-1/2 flex flex-col justify-between items-start space-y-10">
+      <div class="w-full flex flex-col justify-between items-start space-y-10">
         <div class="w-full">
           <h1 class="text-3xl font-headline">{{ headline }}</h1>
         </div>

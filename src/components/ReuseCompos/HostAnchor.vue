@@ -6,7 +6,7 @@
     "
   >
     <div class="w-full h-full flex justify-start items-start">
-      <div class="w-3/5 ml-20 mt-20">
+      <div class="w-full md:w-3/5 ml-20 mt-20">
         <div class="space-y-8 text-default">
           <h1 class="text-default text-4xl font-headline leading-snug">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad facere
