@@ -2,11 +2,14 @@
   <section class="w-full">
     <div class="w-full h-8"></div>
     <HostPerson />
-    <div class="w-full h-20"></div>
+    <div class="w-full h-52 sm:h-20"></div>
     <available-brand />
     <div class="w-full h-8"></div>
     <LiveHosting />
-    <div class="w-full flex flex-col sm:flex-row justify-between items-center">
+    <div class="w-full h-8"></div>
+    <div
+      class="w-full flex flex-col sm:flex-row justify-between items-center gap-y-5 sm:gap-x-5"
+    >
       <PodcastInText
         v-for="(textPodcast, index) in podcastInTextIntro"
         :key="index"

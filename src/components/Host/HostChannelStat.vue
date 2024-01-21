@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full px-8 py-5">
+  <div class="w-full px-5 xl:px-0 py-5">
     <div
-      class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-x-3"
+      class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-5 sm:gap-x-3"
     >
       <StateComp />
       <StateComp />

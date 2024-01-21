@@ -1,15 +1,15 @@
 <template>
-  <div class="w-full">
+  <div class="w-full px-5 xl:px-0">
     <div class="w-full flex flex-col justify-between items-center">
       <div class="w-full flex flex-col justify-between items-start space-y-10">
         <div class="w-full">
-          <h1 class="text-3xl font-headline">{{ headline }}</h1>
+          <h1 class="text-3xl font-headline leading-snug">{{ headline }}</h1>
         </div>
         <div class="w-full">
-          <p class="text-lg font-headline">{{ podcastDetailsEnd }}</p>
+          <p class="text-2xl  leading-snug">{{ podcastDetailsEnd }}</p>
         </div>
         <div class="w-full">
-          <p class="text-lg font-headline">{{ podcastDetailsStart }}</p>
+          <p class="text-lg font-headline leading-7">{{ podcastDetailsStart }}</p>
         </div>
       </div>
     </div>

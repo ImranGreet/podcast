@@ -1,14 +1,14 @@
 <template>
   <div
-    class="w-full h-[550px] bg-cover"
+    class="w-full h-[550px] bg-cover "
     style="
       background-image: url('https://images.unsplash.com/photo-1581368135153-a506cf13b1e1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     "
   >
     <div class="w-full h-full flex justify-start items-start">
-      <div class="w-full md:w-3/5 ml-20 mt-20">
+      <div class="w-full md:w-3/5 ml-5 sm:ml-10 md:ml-20 mt-20">
         <div class="space-y-8 text-default">
-          <h1 class="text-default text-4xl font-headline leading-snug">
+          <h1 class="text-default text-4xl font-headline leading-snug hidden lg:block">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad facere
             blanditiis labore!
           </h1>

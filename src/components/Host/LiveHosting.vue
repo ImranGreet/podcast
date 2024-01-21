@@ -1,9 +1,9 @@
 <template>
-  <div class="w-full py-16">
-    <div class="w-full flex flex-col sm:flex-row justify-center items-center">
-      <div class="w-full sm:w 1/2 flex flex-col justify-center items-center">
+  <div class="w-full px-5 xl:px-0 py-16">
+    <div class="w-full flex flex-col sm:flex-row justify-center items-center gap-y-5 sm:gap-x-5">
+      <div class="w-full sm:w-1/2 flex flex-col justify-center items-center">
         <div class="w-full space-y-8">
-          <h1 class="text-3xl font-headline">
+          <h1 class="text-3xl font-headline leading-snug">
             {{ podcastHeadline }}
           </h1>
           <p>{{ podcastDetailsInfo }}</p>
@@ -11,8 +11,15 @@
         </div>
       </div>
       <!-- host profile picture -->
-      <div class="w-full sm:w-1/2 flex flex-col justify-center items-center">
-        <img :src="hostPersonProfile" alt="" class="w-full object-fill" />
+      <div
+        class="w-full sm:w-1/2 flex flex-col justify-center items-center bg-primaryColor"
+      >
+        <img
+          :src="hostPersonProfile"
+          alt=""
+          class="w-full object-fill"
+          loading="lazy"
+        />
       </div>
     </div>
   </div>

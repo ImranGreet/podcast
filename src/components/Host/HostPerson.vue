@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full h-[500px] flex flex-col justify-center items-center">
+  <div class="w-full px-5 sm:px-0 h-[500px] flex flex-col justify-center items-center">
     <div
-      class="w-full h-full mx-auto flex flex-col sm:flex-row justify-center items-center gap-x-10"
+      class="w-full h-full mx-auto flex flex-col sm:flex-row justify-center items-center sm:gap-x-10"
     >
       <div
         class="w-full sm:w-1/2 h-full flex flex-col justify-center items-center"
@@ -9,13 +9,13 @@
         <img :src="host" alt="" class="h-full object-fill w-full" />
       </div>
       <div
-        class="w-full sm:w-1/2 flex flex-col justify-between items-start gap-y-10"
+        class="w-full sm:w-1/2 flex flex-col justify-between items-start gap-y-5 sm:gap-y-10"
       >
         <div class="space-y-5 w-full">
           <h1 class="text-3xl font-headline leading-snug">{{ hostSpeech }}</h1>
           <p class="text-lg">{{ hostSpeechDesc }}</p>
         </div>
-        <button class="bg-accentColor px-3 py-4 text-default">Know More</button>
+        <button class="bg-accentColor px-3 w-full sm:w-auto py-4 text-default">Know More</button>
       </div>
     </div>
   </div>
