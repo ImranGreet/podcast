@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full text-default">
+  <section class="text-default">
     <div class="w-full flex justify-between items-center gap-x-6">
       <div class="w-1/2">
         <Contactform />

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full flex flex-col justify-center items-center ">
+  <div class="w-full flex flex-col justify-between items-start">
     <div class="space-y-3 w-full">
       <h3 class="text-xl font-headThree">Contact Us</h3>
       <h4 class="text-xl text-accentColor">
@@ -7,9 +7,8 @@
       </h4>
     </div>
     <form
-      action="#"
-      method="post"
-      class="w-full flex flex-col justify-between items-center"
+      
+      class="w-full flex flex-col justify-between items-center gap-y-5"
     >
       <div class="w-full">
         <label for="name" class="sr-only">Full Name</label>
@@ -54,9 +53,15 @@
 
       <div class="w-full">
         <label for="name" class="sr-only">Description</label>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          class="w-full border border-accentColor rounded-lg"
+        ></textarea>
       </div>
-      <button class="bg-accentColor px-5 py-3">Contact Now</button>
+      <button class="bg-accentColor px-5 py-3 w-full">Contact Now</button>
     </form>
   </div>
 </template>
