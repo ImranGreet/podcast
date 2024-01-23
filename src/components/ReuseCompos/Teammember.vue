@@ -10,7 +10,7 @@
       </div>
       <!-- network name -->
       <div class="w-full text-start">
-        <h1 class="text-4xl font-headline text-textColor">Xennifer Ahmed</h1>
+        <h1 class="text-3xl font-headline text-textColor">Xennifer Ahmed</h1>
         <small>Founder <span>&#38;</span> CEO </small>
         <div class="w-full flex gap-x-3">
           <a href="#">Fb</a>

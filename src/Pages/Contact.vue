@@ -1,12 +1,9 @@
 <template>
-  <section class="text-default">
-    <div class="w-full flex justify-between items-center gap-x-6">
-      <div class="w-1/2">
-        <Contactform />
-      </div>
-      <div class="w-1/2">
-        <Contactform />
-      </div>
+  <section class="text-default w-full">
+    <div class="w-full grid grid-cols-2 gap-x-5">
+      <Contactform />
+
+      <Contactform />
     </div>
   </section>
 </template>
