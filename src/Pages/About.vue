@@ -7,7 +7,13 @@
     <div class="w-full h-10"></div>
     <TeamMembers />
     <div class="w-full h-10"></div>
-    <div class="w-full grid grid-cols-4 gap-3">
+    <div class="w-full grid grid-cols-3 gap-3">
+      <Sponsor>
+        <SponsorOne />
+      </Sponsor>
+      <Sponsor>
+        <SponsorOne />
+      </Sponsor>
       <Sponsor>
         <SponsorOne />
       </Sponsor>
@@ -22,7 +28,7 @@
       </Sponsor>
     </div>
     <div class="w-full h-10"></div>
-    <RecentEpisode/>
+    <RecentEpisode />
   </section>
 </template>
 
