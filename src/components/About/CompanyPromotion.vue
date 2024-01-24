@@ -2,7 +2,7 @@
   <div class="w-full grid grid-cols-3">
     <div class="max-w-sm">
       <div class="w-full flex flex-col justify-start items-start">
-        <div class="w-full text-start">
+        <div class="w-full text-center">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="80"

@@ -5,7 +5,7 @@
     viewBox="0 0 24 24"
     stroke-width="1.5"
     stroke="currentColor"
-    class="w-6 h-6"
+    :class="setHeightWidth"
   >
     <path
       stroke-linecap="round"
@@ -14,3 +14,32 @@
     />
   </svg>
 </template>
+
+<script>
+import { computed } from "vue";
+
+export default {
+  name: "Users",
+  props: {
+    width: {
+      type: String,
+      default: "w-6",
+    },
+    height: {
+      type: String,
+      default: "h-6",
+    },
+  },
+  setup(props) {
+    let height = props.height;
+    let width = props.width;
+    let setHeightWidth = computed(() => {
+      return `${width} ${height}`;
+    });
+
+    return {
+      setHeightWidth,
+    };
+  },
+};
+</script>

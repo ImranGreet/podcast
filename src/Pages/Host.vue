@@ -18,9 +18,9 @@
         :podcastDetailsEnd="textPodcast.detailsEnd"
       />
     </div>
-    <div class="w-full h-8"></div>
+    <div class="w-full h-20"></div>
     <HostChannelStat />
-    <div class="w-full h-8"></div>
+    <div class="w-full h-20"></div>
     <HostAnchor />
     <div class="w-full h-8"></div>
     <recent-episode />

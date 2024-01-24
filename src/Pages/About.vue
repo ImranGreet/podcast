@@ -9,10 +9,10 @@
     <div class="w-full h-10"></div>
     <div class="w-full grid grid-cols-3 gap-3">
       <Sponsor>
-        <SponsorOne />
+        <SponsorOne :fillColor="black" />
       </Sponsor>
       <Sponsor>
-        <SponsorOne />
+        <SponsorTwo :fillColor="black" />
       </Sponsor>
       <Sponsor>
         <SponsorOne />
@@ -34,6 +34,8 @@
 
 <script>
 import SponsorOne from "../assets/svgs/SponsorOne.vue";
+import SponsorTwo from "../assets/svgs/SponsorTwo.vue";
+
 import CompanyInfo from "../components/About/CompanyInfo.vue";
 import CompanyPromotion from "../components/About/CompanyPromotion.vue";
 import Sponsor from "../components/About/Sponsor.vue";
@@ -49,6 +51,13 @@ export default {
     CompanyInfo,
     CompanyPromotion,
     RecentEpisode,
+    SponsorTwo,
+  },
+  setup() {
+    let black = "#334155";
+    return {
+      black,
+    };
   },
 };
 </script>
