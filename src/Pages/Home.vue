@@ -1,7 +1,7 @@
 <template>
   <section class="space-y-10">
     <div
-      class="w-full flex h-auto flex-col-reverse sm:flex-row py-14 xl:py-44 gap-y-5 sm:gap-y-0"
+      class="w-full flex h-auto flex-col-reverse sm:flex-row md:px-4 py-14 xl:py-44 gap-y-5 sm:gap-y-0"
     >
       <HeroText />
       <Soundshower />
@@ -12,7 +12,7 @@
     <PodcastPromotion />
 
     <div class="w-full h-8"></div>
-    <recent-episode/>
+    <recent-episode />
     <div class="w-full h-8"></div>
 
     <!-- public review -->
@@ -52,11 +52,11 @@
     </div>
     <!-- end public reviews -->
 
-    <div class="w-full h-8"></div>
+    <div class="w-full sm:h-8"></div>
 
     <SubscriptionBox />
 
-    <div class="w-full h-8"></div>
+    <div class="w-full sm:h-8"></div>
 
     <BlogContainer />
 
@@ -65,7 +65,6 @@
     <div class="block lg:hidden">
       <SponsorshipBanner />
     </div>
-    <div class="h-36 hidden lg:block"></div>
   </section>
 </template>
 
@@ -87,7 +86,6 @@ import SponsorshipBanner from "../components/Promotional/SponsorshipBanner.vue";
 import PodcastPromotion from "../components/PodcastPromotion.vue";
 import RecentEpisode from "../components/Episodes/RecentEpisode.vue";
 
-
 export default {
   name: "Home",
   components: {
@@ -104,7 +102,7 @@ export default {
     BlogContainer,
     SponsorshipBanner,
     PodcastPromotion,
-    RecentEpisode
+    RecentEpisode,
   },
   setup() {
     return {};

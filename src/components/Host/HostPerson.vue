@@ -15,7 +15,7 @@
           <h1 class="text-3xl font-headline leading-snug">{{ hostSpeech }}</h1>
           <p class="text-lg">{{ hostSpeechDesc }}</p>
         </div>
-        <button class="bg-accentColor px-3 w-full sm:w-auto py-4 text-default">Know More</button>
+        <button class="bg-accentColor px-8 w-full sm:w-auto py-4 text-default">Know More</button>
       </div>
     </div>
   </div>

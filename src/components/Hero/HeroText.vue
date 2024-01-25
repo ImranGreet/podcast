@@ -1,5 +1,5 @@
 <template>
-  <div class="text-start space-y-5 px-3 sm:px-0">
+  <div class="text-start space-y-5 px-5 md:px-0">
     <h1
       class="text-2xl lg:text-4xl font-headline text-textColor capitalize leading-snug"
     >

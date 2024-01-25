@@ -1,12 +1,12 @@
 <template>
   <section class="w-full">
-    <div class="w-full h-8"></div>
+    <div class="w-full h-36"></div>
     <HostPerson />
-    <div class="w-full h-52 sm:h-20"></div>
+    <div class="w-full h-52 sm:h-36"></div>
     <available-brand />
-    <div class="w-full h-8"></div>
+    <div class="w-full h-36"></div>
     <LiveHosting />
-    <div class="w-full h-8"></div>
+    <div class="w-full h-36"></div>
     <div
       class="w-full flex flex-col sm:flex-row justify-between items-center gap-y-5 sm:gap-x-5"
     >
@@ -18,12 +18,13 @@
         :podcastDetailsEnd="textPodcast.detailsEnd"
       />
     </div>
-    <div class="w-full h-20"></div>
+    <div class="w-full h-36"></div>
     <HostChannelStat />
-    <div class="w-full h-20"></div>
+    <div class="w-full h-36"></div>
     <HostAnchor />
-    <div class="w-full h-8"></div>
+    <div class="w-full h-36"></div>
     <recent-episode />
+    <div class="w-full h-36"></div>
   </section>
 </template>
 

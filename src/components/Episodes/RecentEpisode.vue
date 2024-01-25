@@ -1,9 +1,9 @@
 <template>
-  <div class="w-full space-y-10 px-5 xl:px-0">
+  <div class="w-full space-y-10">
     <div
       class="w-full flex flex-col sm:flex-row justify-between space-y-6 sm:space-y-0"
     >
-      <div class="w-11/12 mx-auto sm:w-2/5 space-y-2">
+      <div class="w-11/12 mx-auto sm:w-2/5 space-y-2 px-4 lg:px-0">
         <h1 class="text-2xl lg:text-4xl font-headline">Recent Episodes</h1>
         <p class="text-lg">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
@@ -22,6 +22,7 @@
         >
       </div>
     </div>
+    <div class="w-full h-8"></div>
     <div
       class="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-y-5 sm:gap-x-5 px-3 lg:px-0"
     >

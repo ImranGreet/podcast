@@ -9,7 +9,7 @@
         <!-- navlinks -->
         <ul class="w-full flex justify-between items-center">
           <li v-for="(link, index) in navs" :key="index">
-            <router-link to="" class="capitalize">{{
+            <router-link :to="{ name: link.urlTitle }" class="capitalize">{{
               link.urlTitle
             }}</router-link>
           </li>
@@ -38,11 +38,11 @@ export default {
       },
       {
         id: 4,
-        urlTitle: "Blog",
+        urlTitle: "readblog",
       },
       {
         id: 5,
-        urlTitle: "Contact",
+        urlTitle: "contact",
       },
     ];
     return {
