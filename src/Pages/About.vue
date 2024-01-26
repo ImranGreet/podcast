@@ -1,12 +1,12 @@
 <template>
   <section>
-    <div class="w-full h-36"></div>
+    <spacer />
     <CompanyInfo />
-    <div class="w-full h-10"></div>
+    <spacer />
     <CompanyPromotion />
-    <div class="w-full h-10"></div>
+    <spacer />
     <TeamMembers />
-    <div class="w-full h-10"></div>
+    <spacer />
     <div class="w-full grid grid-cols-3 gap-3">
       <Sponsor>
         <SponsorOne :fillColor="black" />
@@ -27,7 +27,7 @@
         <SponsorOne />
       </Sponsor>
     </div>
-    <div class="w-full h-10"></div>
+    <spacer />
     <RecentEpisode />
   </section>
 </template>

@@ -4,9 +4,12 @@
       <img :src="episodeThumbnail" alt="" class="w-full h-52 object-cover" />
     </div>
     <div class="text-start space-y-2">
-      <h2 class="text-xl lg:text-2xl font-headThree leading-7">
+      <router-link
+        to="#"
+        class="text-xl lg:text-2xl font-headThree leading-7 hover:underline hover:underline-offset-8 hover:duration-200 hover:delay-300 hover:decoration-gray-900/50 hover:decoration-1"
+      >
         Laravel is a web application framework with expressive, elegant syntax.
-      </h2>
+      </router-link>
       <p>
         Laravel strives to provide an amazing developer experience while
         providing powerful features such as thorough dependency injection

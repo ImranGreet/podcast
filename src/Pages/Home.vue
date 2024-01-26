@@ -8,12 +8,12 @@
     </div>
 
     <AvailableBrand />
-    <div class="w-full h-8"></div>
+    <spacer />
     <PodcastPromotion />
 
-    <div class="w-full h-8"></div>
+    <spacer />
     <recent-episode />
-    <div class="w-full h-8"></div>
+    <spacer />
 
     <!-- public review -->
 
@@ -52,7 +52,7 @@
     </div>
     <!-- end public reviews -->
 
-    <div class="w-full sm:h-8"></div>
+    <spacer />
 
     <SubscriptionBox />
 
@@ -60,7 +60,7 @@
 
     <BlogContainer />
 
-    <div class="w-full h-8"></div>
+    <spacer />
 
     <div class="block lg:hidden">
       <SponsorshipBanner />

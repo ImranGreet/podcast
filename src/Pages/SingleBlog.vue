@@ -1,11 +1,11 @@
 <template>
   <section>
     <BlogContainer />
-    <div class="w-full h-10"></div>
+    <spacer />
     <BlogTitleAndThumnail />
-    <div class="w-full h-10"></div>
+    <spacer />
     <BlogDetailsInText />
-    <div class="w-full h-10"></div>
+    <spacer />
     <AuthorDetails />
   </section>
 </template>

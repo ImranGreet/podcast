@@ -1,11 +1,11 @@
 <template>
   <section>
     <EpisodeDetails />
-    <div class="w-full h-20"></div>
+    <spacer />
     <RecentEpisode />
-    <div class="w-full h-20"></div>
+    <spacer />
     <RecentEpisode />
-    <div class="w-full h-20"></div>
+    <spacer />
     <story-teller />
   </section>
 </template>

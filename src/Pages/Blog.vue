@@ -1,7 +1,7 @@
 <template>
   <div>
     <BlogThumbnailTitle />
-    <div class="w-full h-8"></div>
+    <spacer />
     <BlogContainer />
   </div>
 </template>
