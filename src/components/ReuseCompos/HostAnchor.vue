@@ -19,7 +19,7 @@
             veniam!
           </p>
           <button
-            class="px-5 py-2 border border-default text-center rounded-lg"
+            class="px-5 py-2 border border-default text-center rounded-lg hover:bg-bgColor/45 hover:text-default"
           >
             Contact Us
           </button>
