@@ -21,8 +21,17 @@
       </div>
     </div>
     <!-- podcast equipment -->
-    <div class="w-full flex flex-col justify-start items-start">
-      <div class="w-full flex flex-col justify-center items-center">
+    <div class="w-full flex flex-col justify-start items-start relative">
+      <div
+        class="w-full flex justify-center items-center gap-x-20 overflow-hidden absolute top-10 left-8"
+      >
+        <div
+          class="w-8 h-52 self-end rotate-45 bg-accentColor -translate-y-10"
+        ></div>
+        <div class="w-8 h-64 rotate-45 bg-primaryColor"></div>
+        <div class="w-8 h-48 rotate-45 self-end bg-accentColor"></div>
+      </div>
+      <div class="w-full flex flex-col justify-center items-center z-40">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="355"
